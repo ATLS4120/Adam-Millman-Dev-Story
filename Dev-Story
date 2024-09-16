@@ -40,6 +40,8 @@ struct MyInfoPage1: View {
                 .font(.title)
                 .underline()
                 .padding(.bottom, 5)
+            Image("RVCC")
+                .imageScale(.small)
             Text(Constants.journeyText)
                 .padding()
                 .multilineTextAlignment(.leading)
