@@ -16,7 +16,7 @@ struct GameDevelopmentView: View {
                 VStack {
                     Text(DevAppText.gameDevText)
                         .padding() // Add padding around the text
-                        .background(Color.blue) // Set the background color
+                        .background(Color.gray.opacity(0.7)) // Set the background color
                         .foregroundColor(.white) // Set the text color
                         .cornerRadius(10) // Optional: add rounded corners
                         .font(.title) // Optional: set the font size
@@ -27,6 +27,8 @@ struct GameDevelopmentView: View {
                             .padding()
                             .background(Color.white)
                             .cornerRadius(8)
+                            .multilineTextAlignment(.center)
+                        
                     }
                 }
                 .padding()
