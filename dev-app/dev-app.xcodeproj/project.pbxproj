@@ -15,6 +15,7 @@
 		C4BD2E222C9904FD003BC355 /* dev_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD2E212C9904FD003BC355 /* dev_appUITests.swift */; };
 		C4BD2E242C9904FD003BC355 /* dev_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BD2E232C9904FD003BC355 /* dev_appUITestsLaunchTests.swift */; };
 		C4DDA6CB2CA24477003B034D /* .gitignore.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C4DDA6CA2CA24477003B034D /* .gitignore.rtf */; };
+		C4DDA6CD2CA24554003B034D /* The Beginning.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA6CC2CA24554003B034D /* The Beginning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C4BD2E212C9904FD003BC355 /* dev_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev_appUITests.swift; sourceTree = "<group>"; };
 		C4BD2E232C9904FD003BC355 /* dev_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dev_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C4DDA6CA2CA24477003B034D /* .gitignore.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = .gitignore.rtf; sourceTree = "<group>"; };
+		C4DDA6CC2CA24554003B034D /* The Beginning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Beginning.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C4BD2E062C9904F9003BC355 /* dev_appApp.swift */,
 				C4BD2E082C9904F9003BC355 /* ContentView.swift */,
+				C4DDA6CC2CA24554003B034D /* The Beginning.swift */,
 				C4BD2E0A2C9904FA003BC355 /* Assets.xcassets */,
 				C4BD2E0C2C9904FA003BC355 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DDA6CD2CA24554003B034D /* The Beginning.swift in Sources */,
 				C4BD2E092C9904F9003BC355 /* ContentView.swift in Sources */,
 				C4BD2E072C9904F9003BC355 /* dev_appApp.swift in Sources */,
 			);

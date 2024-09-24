@@ -33,7 +33,7 @@ enum Constants {
 }
 
 // Individual Info Pages
-struct MyInfoPage1: View {
+struct TheBeginning: View {
     var body: some View {
         VStack {
             Text("The Beginning")
@@ -50,7 +50,7 @@ struct MyInfoPage1: View {
         .cornerRadius(10)
     }
 }
-struct MyInfoPage2: View {
+struct DiscordBotProject: View {
     var body: some View {
         VStack {
             Text("Discord Bot Project")
@@ -67,7 +67,7 @@ struct MyInfoPage2: View {
     }
 }
 
-struct MyInfoPage3: View {
+struct SQLServerDevelopment: View {
     var body: some View {
         VStack {
             Text("SQL Server Development")
@@ -82,7 +82,7 @@ struct MyInfoPage3: View {
         .background(Color.gray.opacity(0.1))
     }
 }
-struct MyInfoPage4: View {
+struct GameDevelopment: View {
     var body: some View {
         VStack {
             Text("Game Development")
@@ -96,7 +96,7 @@ struct MyInfoPage4: View {
         }
     }
 }
-struct MyInfoPage5: View {
+struct MovetoColorado: View {
     var body: some View {
         VStack {
             Text("Move to Colorado")
