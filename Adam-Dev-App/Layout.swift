@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct LayoutModifier: View{
+    let font = .font(.body)
+    let padding = .padding()
+    let width = .frame(maxWidth: .infinity)
+    let backgroundColor = .background(Color.cyan)
+    let foregroundColor = .foregroundColor(.white)
+    let radius = .cornerRadius(10)
+    
+    init
+    
+}
