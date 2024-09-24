@@ -19,15 +19,14 @@ struct ContentView<Content: View>: View {
                 .padding()
                 .background(backgroundColor)
                 .cornerRadius(10)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
             
             content()
                 .padding()
-                .background(Color.white)
+                .background(Color.gray)
                 .cornerRadius(12)
                 .shadow(radius: 5)
         }
         .padding()
     }
 }
-

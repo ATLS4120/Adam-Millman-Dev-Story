@@ -9,15 +9,19 @@ import SwiftUI
 
 struct GameDevelopmentView: View {
     var body: some View {
-        ContentView(title: "Game Development", backgroundColor: Color.red) {
+        ContentView(title: "Game Development", backgroundColor: .green) {
             ZStack {
-                Color.red.opacity(0.1)
-                    .edgesIgnoringSafeArea(.all)
+                Image("GameDev")
                 
                 VStack {
                     Text(DevAppText.gameDevText)
-                        .multilineTextAlignment(.center)
-                        .padding()
+                        .padding() // Add padding around the text
+                        .background(Color.blue) // Set the background color
+                        .foregroundColor(.white) // Set the text color
+                        .cornerRadius(10) // Optional: add rounded corners
+                        .font(.title) // Optional: set the font size
+                        .frame(maxWidth: .infinity) // Ensure the frame takes the maximum available width
+                        .multilineTextAlignment(.center) // Optional: center-aligns the text if it's multiline
                     NavigationLink(destination: MoveToColoradoView()) {
                         Text("Next")
                             .padding()
@@ -30,4 +34,10 @@ struct GameDevelopmentView: View {
         }
     }
 }
+
+#Preview{
+    GameDevelopmentView()
+}
+
+    
 

@@ -9,8 +9,10 @@ import SwiftUI
 
 struct MoveToColoradoView: View {
     var body: some View {
-        ContentView(title: "Move to Colorado", backgroundColor: Color.purple) {
+        ContentView(title: "Move to Colorado", backgroundColor: .cyan) {
             VStack(spacing: 10) {
+                Image("colorado")
+                    .imageScale(.small)
                 Text(DevAppText.moveToColoradoText)
                     .multilineTextAlignment(.leading)
                     .padding()
@@ -27,4 +29,7 @@ struct MoveToColoradoView: View {
             .padding()
         }
     }
+}
+#Preview{
+    MoveToColoradoView()
 }

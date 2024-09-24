@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DiscordBotView: View {
     var body: some View {
-        ContentView(title: "Discord Bot Project", backgroundColor: Color.green) {
+        ContentView(title: "Discord Bot Project", backgroundColor: .orange) {
             HStack {
                 Image("discord")
                     .resizable()
@@ -31,4 +31,7 @@ struct DiscordBotView: View {
             }
         }
     }
+}
+#Preview{
+    DiscordBotView()
 }

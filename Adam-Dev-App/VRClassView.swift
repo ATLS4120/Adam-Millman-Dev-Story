@@ -9,11 +9,13 @@ import SwiftUI
 
 struct VRClassView: View {
     var body: some View {
-        ContentView(title: "Virtual Reality Class", backgroundColor: Color.cyan) {
+        ContentView(title: "Virtual Reality Class", backgroundColor: .yellow) {
             VStack {
                 Text(DevAppText.vrIntroClassText)
                     .multilineTextAlignment(.leading)
                     .padding()
+                    Image("VRClass")
+                    .imageScale(.medium)
                 
                 NavigationLink(destination: FutureGoalsView()) {
                     Text("Next")
@@ -24,4 +26,7 @@ struct VRClassView: View {
             }
         }
     }
+}
+#Preview{
+    VRClassView()
 }

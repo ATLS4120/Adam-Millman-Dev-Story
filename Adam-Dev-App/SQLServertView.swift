@@ -9,11 +9,16 @@ import SwiftUI
 
 struct SQLServerView: View {
     var body: some View {
-        ContentView(title: "SQL Server Development", backgroundColor: Color.orange) {
+        ContentView(title: "SQL Server Development", backgroundColor: .yellow) {
             VStack(spacing: 20) {
                 Text(DevAppText.sqlServersText)
                     .multilineTextAlignment(.leading)
                     .padding()
+                Image("SQL")
+                    .resizable()
+                    .scaledToFit()
+                    .padding(.horizontal, 20)
+                    .frame(maxWidth: .infinity)
                 
                 NavigationLink(destination: GameDevelopmentView()) {
                     Text("Next")
@@ -25,4 +30,7 @@ struct SQLServerView: View {
             .padding()
         }
     }
+}
+#Preview{
+    SQLServerView()
 }

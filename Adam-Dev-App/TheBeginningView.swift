@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TheBeginningView: View {
     var body: some View {
-        ContentView(title: "The Beginning", backgroundColor: Color.blue) {
+        ContentView(title: "The Beginning", backgroundColor: .red) {
             VStack {
                 Image("RVCC")
                     .resizable()
@@ -30,4 +30,7 @@ struct TheBeginningView: View {
             .padding()
         }
     }
+}
+#Preview{
+    TheBeginningView()
 }

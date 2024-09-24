@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ArduinoProgrammingView: View {
     var body: some View {
-        ContentView(title: "Arduino Programming", backgroundColor: Color.yellow) {
+        ContentView(title: "Arduino Programming", backgroundColor: .cyan) {
             VStack {
                 Text(DevAppText.arduinoProgrammingText)
                     .multilineTextAlignment(.leading)
                     .padding()
                     .background(Color.white)
                     .cornerRadius(12)
+                Image("arduino")
+                    .imageScale(.medium)
 
                 NavigationLink(destination: CppClassView()) {
                     Text("Next")
@@ -26,4 +28,7 @@ struct ArduinoProgrammingView: View {
             }
         }
     }
+}
+#Preview{
+    ArduinoProgrammingView()
 }

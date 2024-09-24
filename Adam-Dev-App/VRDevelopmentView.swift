@@ -9,8 +9,10 @@ import SwiftUI
 
 struct VRDevelopmentView: View {
     var body: some View {
-        ContentView(title: "Virtual Reality Development", backgroundColor: Color.teal) {
+        ContentView(title: "Virtual Reality Development", backgroundColor: .purple) {
             HStack {
+                Image("VR")
+                    .imageScale(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
                 VStack(alignment: .leading) {
                     Text(DevAppText.vrDevelopmentText)
                         .padding()
@@ -31,4 +33,8 @@ struct VRDevelopmentView: View {
             }
         }
     }
+}
+
+#Preview{
+    VRDevelopmentView()
 }

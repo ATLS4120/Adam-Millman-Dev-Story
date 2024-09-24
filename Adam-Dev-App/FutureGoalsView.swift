@@ -11,27 +11,39 @@ struct FutureGoalsView: View {
     @State private var showMoreInfo = false
     
     var body: some View {
-        ContentView(title: "Future Goals", backgroundColor: Color.green) {
+        ContentView(title: "Future Goals", backgroundColor: .orange) {
             VStack(spacing: 20) {
                 Text(DevAppText.futureText)
                 
                 Button(action: {
                     showMoreInfo.toggle()
                 }) {
-                    Text(showMoreInfo ? "Show Less" : "Show More")
-                        .padding()
-                        .background(Color.white)
-                        .cornerRadius(8)
+                    HStack{
+                        Text(showMoreInfo ? "Show Less" : "Show More")
+                            .padding()
+                            .background(Color.white)
+                            .cornerRadius(8)
+                    }
                 }
                 
                 if showMoreInfo {
-                    Text("I'm excited to delve into new projects and technologies!")
-                        .padding()
-                        .background(Color.gray.opacity(0.1))
-                        .cornerRadius(8)
+                    ZStack{
+                        Image("Goals")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(.horizontal, 10)
+                        Text("I'm excited to delve into new projects and technologies!")
+                            .padding()
+                            .foregroundColor(.white)
+                            .background(Color.black.opacity(0.69))
+                            .cornerRadius(8)
+                    }
                 }
             }
             .padding()
         }
     }
+}
+#Preview{
+    FutureGoalsView()
 }

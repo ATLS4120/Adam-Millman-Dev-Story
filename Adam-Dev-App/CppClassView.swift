@@ -9,8 +9,10 @@ import SwiftUI
 
 struct CppClassView: View {
     var body: some View {
-        ContentView(title: "C++ Class", backgroundColor: Color.brown) {
+        ContentView(title: "C++ Class", backgroundColor: .green) {
             VStack(spacing: 20) {
+                Image("C++")
+                    .imageScale(.medium)
                 Text(DevAppText.cppClassText)
                     .padding()
                 
@@ -23,4 +25,7 @@ struct CppClassView: View {
             }
         }
     }
+}
+#Preview{
+    CppClassView()
 }
