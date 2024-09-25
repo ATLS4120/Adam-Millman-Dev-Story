@@ -23,15 +23,13 @@ struct GameDevelopmentView: View {
 
                     Text(DevAppText.gameDevText)
                         .padding()
-                        .background(Color.blue.opacity(0.8))
+                        .background(Color.pink.opacity(0.8))
                         .foregroundColor(.white)
                         .font(.title2)
                         .multilineTextAlignment(.center)
                         .frame(maxWidth: 300)
-                        .lineLimit(4)
-                        .truncationMode(.tail)
                         .cornerRadius(12)
-                        .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2)
+                        .shadow(color: Color.yellow.opacity(0.5), radius: 5, x: 0, y: 2)
 
                     NavigationLink(destination: MoveToColoradoView()) {
                         Text("Next")
