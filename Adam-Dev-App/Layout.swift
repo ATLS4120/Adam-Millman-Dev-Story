@@ -1,20 +1,21 @@
 //
 //  Layout.swift
-//  Adam-Dev-App
+////  Adam-Dev-App
+////
+////  Created by Adam Millman on 9/24/24.
+////
 //
-//  Created by Adam Millman on 9/24/24.
+//import Foundation
+//import SwiftUI
 //
-
-import Foundation
-
-struct LayoutModifier: View{
-    let font = .font(.body)
-    let padding = .padding()
-    let width = .frame(maxWidth: .infinity)
-    let backgroundColor = .background(Color.cyan)
-    let foregroundColor = .foregroundColor(.white)
-    let radius = .cornerRadius(10)
-    
-    init
-    
-}
+//struct LayoutModifier: View{
+//    let font = .font(.body)
+//    let padding = .padding()
+//    let width = .frame(maxWidth: .infinity)
+//    let backgroundColor = .background(Color.cyan)
+//    let foregroundColor = .foregroundColor(.white)
+//    let radius = .cornerRadius(10)
+//
+//    init
+//
+//}

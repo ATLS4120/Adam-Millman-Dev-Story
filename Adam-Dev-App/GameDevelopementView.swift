@@ -12,34 +12,41 @@ struct GameDevelopmentView: View {
         ContentView(title: "Game Development", backgroundColor: .green) {
             ZStack {
                 Image("GameDev")
-                    .resizable() // Make the image resizable
-                    .scaledToFill() // Scale the image to fill the view
-                    .edgesIgnoringSafeArea(.all) // Ensure it covers the entire screen
+                    .resizable()
+                    .scaledToFill()
+                    .edgesIgnoringSafeArea(.all)
 
-                VStack {
-                    Spacer() // Push the content upwards
+                Color.black.opacity(0.5).edgesIgnoringSafeArea(.all)
+
+                VStack(spacing: 20) {
+                    Spacer()
 
                     Text(DevAppText.gameDevText)
-                        .padding() // Add padding around the text
-                        .background(Color.gray.opacity(0.7)) // Set the background color
-                        .foregroundColor(.white) // Set the text color
-                        .cornerRadius(10) // Optional: add rounded corners
-                        .font(.title) // Optional: set the font size
-                        .multilineTextAlignment(.center) // Center-aligns the text if it's multiline
-                        .frame(maxWidth: .infinity) // Ensure the frame takes the maximum available width
-                        .padding(.horizontal) // Add horizontal padding
+                        .padding()
+                        .background(Color.blue.opacity(0.8))
+                        .foregroundColor(.white)
+                        .font(.title2)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: 300)
+                        .lineLimit(4)
+                        .truncationMode(.tail)
+                        .cornerRadius(12)
+                        .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2)
 
                     NavigationLink(destination: MoveToColoradoView()) {
                         Text("Next")
                             .padding()
-                            .background(Color.white)
-                            .cornerRadius(8)
-                            .multilineTextAlignment(.center)
-                            .padding(.top) // Add space above the button
+                            .frame(maxWidth: 300)
+                            .background(Color.orange)
+                            .foregroundColor(.white)
+                            .font(.headline)
+                            .cornerRadius(10)
+                            .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 3)
                     }
-                    .padding(.bottom) // Add space below the button
+                    .padding(.top, 20)
+                    .padding(.horizontal, 30)
 
-                    Spacer() // Push the content downwards
+                    Spacer()
                 }
                 .padding()
             }

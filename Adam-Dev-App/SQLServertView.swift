@@ -13,24 +13,45 @@ struct SQLServerView: View {
             VStack(spacing: 20) {
                 Text(DevAppText.sqlServersText)
                     .multilineTextAlignment(.leading)
+                    .font(.title2)
+                    .fontWeight(.bold)
                     .padding()
+                    .foregroundColor(.black)
+                    .background(Color.white)
+                    .cornerRadius(12)
+                    .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 2)
+
                 Image("SQL")
                     .resizable()
                     .scaledToFit()
+                    .frame(height: 200)
                     .padding(.horizontal, 20)
-                    .frame(maxWidth: .infinity)
-                
+                    .background(Color.white.opacity(0.8))
+                    .cornerRadius(12)
+                    .shadow(radius: 5)
+
                 NavigationLink(destination: GameDevelopmentView()) {
                     Text("Next")
                         .padding()
-                        .background(Color.white)
-                        .cornerRadius(8)
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .font(.headline)
+                        .cornerRadius(10)
+                        .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 3)
                 }
+                .padding(.horizontal, 30)
+                .padding(.bottom, 40)
             }
+            .padding()
+            .background(Color.yellow.opacity(0.9)) 
+            .cornerRadius(20)
+            .shadow(radius: 10)
             .padding()
         }
     }
 }
+
 #Preview{
     SQLServerView()
 }
