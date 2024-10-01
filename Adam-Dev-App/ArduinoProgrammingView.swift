@@ -17,7 +17,7 @@ struct ArduinoProgrammingView: View {
                 Color.purple
                     .edgesIgnoringSafeArea(.all)
 
-                VStack {
+                HStack {
                     Spacer()
 
                     Text(DevAppText.arduinoProgrammingText)

@@ -21,7 +21,7 @@
 		C4DDA6FB2CA249CE003B034D /* MoveToColoradoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA6FA2CA249CE003B034D /* MoveToColoradoView.swift */; };
 		C4DDA6FD2CA249EF003B034D /* GameDevelopementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA6FC2CA249EF003B034D /* GameDevelopementView.swift */; };
 		C4DDA6FF2CA24A2E003B034D /* SQLServertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA6FE2CA24A2E003B034D /* SQLServertView.swift */; };
-		C4DDA7012CA24CF1003B034D /* AdamDevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA7002CA24CF1003B034D /* AdamDevApp.swift */; };
+		C4DDA7012CA24CF1003B034D /* AdamDevAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA7002CA24CF1003B034D /* AdamDevAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		C4DDA6FA2CA249CE003B034D /* MoveToColoradoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveToColoradoView.swift; sourceTree = "<group>"; };
 		C4DDA6FC2CA249EF003B034D /* GameDevelopementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDevelopementView.swift; sourceTree = "<group>"; };
 		C4DDA6FE2CA24A2E003B034D /* SQLServertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLServertView.swift; sourceTree = "<group>"; };
-		C4DDA7002CA24CF1003B034D /* AdamDevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamDevApp.swift; sourceTree = "<group>"; };
+		C4DDA7002CA24CF1003B034D /* AdamDevAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamDevAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		C4DDA6D92CA246DF003B034D /* Adam-Dev-App */ = {
 			isa = PBXGroup;
 			children = (
-				C4DDA7002CA24CF1003B034D /* AdamDevApp.swift */,
+				C4DDA7002CA24CF1003B034D /* AdamDevAppView.swift */,
 				C4DDA6EC2CA247FA003B034D /* DevAppText.swift */,
 				C4DDA6E82CA2475C003B034D /* TheBeginningView.swift */,
 				C4DDA6EA2CA24772003B034D /* DiscordBotView.swift */,
@@ -173,7 +173,7 @@
 				C4DDA6F12CA248B8003B034D /* FutureGoalsView.swift in Sources */,
 				C4DDA6F52CA24969003B034D /* CppClassView.swift in Sources */,
 				C4DDA6F92CA249A4003B034D /* VRDevelopmentView.swift in Sources */,
-				C4DDA7012CA24CF1003B034D /* AdamDevApp.swift in Sources */,
+				C4DDA7012CA24CF1003B034D /* AdamDevAppView.swift in Sources */,
 				C4DDA6F72CA24992003B034D /* ArduinoProgrammingView.swift in Sources */,
 				C4DDA6DD2CA246DF003B034D /* ContentView.swift in Sources */,
 				C4DDA6EB2CA24772003B034D /* DiscordBotView.swift in Sources */,

@@ -12,7 +12,7 @@ import SwiftUI
 struct TheBeginningView: View {
     var body: some View {
         ContentView(title: "The Beginning", backgroundColor: .red) {
-            VStack {
+            HStack {
                 Image("RVCC")
                     .resizable()
                     .scaledToFit()
