@@ -30,18 +30,6 @@ struct SQLServerView: View {
                     .cornerRadius(12)
                     .shadow(radius: 5)
 
-                NavigationLink(destination: GameDevelopmentView()) {
-                    Text("Next")
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .font(.headline)
-                        .cornerRadius(10)
-                        .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 3)
-                }
-                .padding(.horizontal, 30)
-                .padding(.bottom, 40)
             }
             .padding()
             .background(Color.yellow.opacity(0.9)) 

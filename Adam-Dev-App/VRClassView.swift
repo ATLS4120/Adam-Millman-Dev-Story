@@ -21,14 +21,14 @@ struct VRClassView: View {
 
                 VStack(spacing: 20) {
                     Text(DevAppText.vrIntroClassText)
-                        .multilineTextAlignment(.leading)
+                        .multilineTextAlignment(.center)
                         .padding()
                         .font(.headline)
                         .foregroundColor(.black)
                         .background(Color.white)
                         .cornerRadius(12)
                         .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 5)
-                        .frame(maxWidth: .infinity)
+                
 
                     Image("VRClass")
                         .resizable()
@@ -36,17 +36,6 @@ struct VRClassView: View {
                         .frame(width: 200, height: 200)
                         .cornerRadius(12)
                         .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 5)
-
-                    NavigationLink(destination: FutureGoalsView()) {
-                        Text("Next")
-                            .padding()
-                            .frame(maxWidth: .infinity) 
-                            .background(Color.white)
-                            .foregroundColor(.black)
-                            .font(.headline)
-                            .cornerRadius(15)
-                            .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 3)
-                    }
                     .padding(.top, 20)
                 }
                 .padding()

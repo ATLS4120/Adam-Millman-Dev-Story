@@ -12,31 +12,16 @@ import SwiftUI
 struct TheBeginningView: View {
     var body: some View {
         ContentView(title: "The Beginning", backgroundColor: .red) {
-            HStack {
+            VStack{
                 Image("RVCC")
                     .resizable()
                     .scaledToFit()
                     .frame(height: 200)
                     .padding(.bottom, 10)
-
-                Text(DevAppText.journeyText)
-                    .multilineTextAlignment(.leading)
-                    .padding()
-
-                NavigationLink(destination: DiscordBotView()) {
-                    Text("Next")
+                    Text(DevAppText.journeyText)
+                        .multilineTextAlignment(.leading)
                         .padding()
-                        .background(
-                            RoundedRectangle(cornerRadius: 8)
-                                .fill(Color.white)
-                                .shadow(color: Color.black.opacity(0.2), radius: 5, x: 0, y: 2)
-                        )
-                        .scaleEffect(isHovered ? 1.1 : 1.0)
-                        .animation(.easeInOut(duration: 0.2), value: isHovered)
-                        .onHover { hovering in
-                            isHovered = hovering
-                        }
-                }
+                    }
                 .padding(.top, 20)
             }
             .padding()
@@ -47,8 +32,6 @@ struct TheBeginningView: View {
         }
     }
     
-    @State private var isHovered = false
-}
 
 #Preview{
     TheBeginningView()

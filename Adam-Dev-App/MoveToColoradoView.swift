@@ -45,20 +45,6 @@ struct MoveToColoradoView: View {
                             .shadow(color: Color.black.opacity(0.1), radius: 5, x: 0, y: 2)
                             .transition(.opacity)
                     }
-
-                    NavigationLink(destination: VRDevelopmentView()) {
-                        Text("Next")
-                            .padding()
-                            .frame(maxWidth: 300)
-                            .background(Color.orange)
-                            .foregroundColor(.white)
-                            .font(.headline)
-                            .cornerRadius(10)
-                            .shadow(color: Color.black.opacity(0.3), radius: 5, x: 0, y: 3)
-                    }
-                    .padding(.top, 20)
-                    .padding(.horizontal, 30)
-
                     Spacer()
                 }
                 .padding()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4B314E62CAF152400B8A155 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B314E52CAF152300B8A155 /* StartingView.swift */; };
+		C4B314E82CAF276600B8A155 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B314E72CAF276600B8A155 /* TextView.swift */; };
 		C4DDA6DD2CA246DF003B034D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DDA6DC2CA246DF003B034D /* ContentView.swift */; };
 		C4DDA6DF2CA246E0003B034D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DDA6DE2CA246E0003B034D /* Assets.xcassets */; };
 		C4DDA6E22CA246E0003B034D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DDA6E12CA246E0003B034D /* Preview Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4B314E52CAF152300B8A155 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		C4B314E72CAF276600B8A155 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		C4DDA6D72CA246DF003B034D /* Adam-Dev-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adam-Dev-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DDA6DC2CA246DF003B034D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4DDA6DE2CA246E0003B034D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 			children = (
 				C4DDA7002CA24CF1003B034D /* AdamDevAppView.swift */,
 				C4DDA6EC2CA247FA003B034D /* DevAppText.swift */,
+				C4B314E52CAF152300B8A155 /* StartingView.swift */,
 				C4DDA6E82CA2475C003B034D /* TheBeginningView.swift */,
 				C4DDA6EA2CA24772003B034D /* DiscordBotView.swift */,
 				C4DDA6FE2CA24A2E003B034D /* SQLServertView.swift */,
@@ -86,6 +91,7 @@
 				C4DDA6F22CA24940003B034D /* VRClassView.swift */,
 				C4DDA6F02CA248B8003B034D /* FutureGoalsView.swift */,
 				C4DDA6DC2CA246DF003B034D /* ContentView.swift */,
+				C4B314E72CAF276600B8A155 /* TextView.swift */,
 				C4DDA6DE2CA246E0003B034D /* Assets.xcassets */,
 				C4DDA6E02CA246E0003B034D /* Preview Content */,
 			);
@@ -179,7 +185,9 @@
 				C4DDA6EB2CA24772003B034D /* DiscordBotView.swift in Sources */,
 				C4DDA6FD2CA249EF003B034D /* GameDevelopementView.swift in Sources */,
 				C4DDA6FB2CA249CE003B034D /* MoveToColoradoView.swift in Sources */,
+				C4B314E82CAF276600B8A155 /* TextView.swift in Sources */,
 				C4DDA6F32CA24940003B034D /* VRClassView.swift in Sources */,
+				C4B314E62CAF152400B8A155 /* StartingView.swift in Sources */,
 				C4DDA6ED2CA247FA003B034D /* DevAppText.swift in Sources */,
 				C4DDA6FF2CA24A2E003B034D /* SQLServertView.swift in Sources */,
 				C4DDA6E92CA2475C003B034D /* TheBeginningView.swift in Sources */,

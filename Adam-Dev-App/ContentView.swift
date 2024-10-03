@@ -15,17 +15,10 @@ struct ContentView<Content: View>: View {
     var body: some View {
         VStack {
             Text(title)
-                .font(.headline)
-                .padding()
                 .background(backgroundColor)
-                .cornerRadius(10)
-                .foregroundColor(.black)
-            
-            content()
                 .padding()
-                .background(Color.gray)
-                .cornerRadius(12)
-                .shadow(radius: 5)
+                content()
+  
         }
         .padding()
     }

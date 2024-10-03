@@ -15,17 +15,10 @@ struct CppClassView: View {
                     .imageScale(.medium)
                 Text(DevAppText.cppClassText)
                     .padding()
-                
-                NavigationLink(destination: VRClassView()) {
-                    Text("Next")
-                        .padding()
-                        .background(Color.white)
-                        .cornerRadius(8)
                 }
             }
         }
     }
-}
 #Preview{
     CppClassView()
 }
